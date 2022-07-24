@@ -118,3 +118,26 @@
   height: 100%;
   object-fit: cover;
 }
+
+.client-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.client-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials h1 {
+  color: #a0a1a2;
+}

@@ -190,3 +190,26 @@
 .examples img {
   width: 100%;
 }
+
+.footer {
+  background-color: #90d4c5;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .logo {
+  margin-top: 50px;
+  color: #2d7465;
+}
+
+.footer-navigation {
+  color: #4f9485;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.footer-navigation span {
+  padding: 8px;
+}

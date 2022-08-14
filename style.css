@@ -292,6 +292,9 @@
 
 /* RESPONSIVE */
 @media (max-width: 575.98px) {
+  .main .text {
+    text-align: center;
+  }
   .section1 {
     flex-direction: column;
     height: auto;
@@ -329,6 +332,9 @@
 }
 
 @media (min-width: 575.99px) and (max-width: 628.18px) {
+  .main .text {
+    text-align: center;
+  }
   .section1 .left .text-container h1 {
     font-size: 25px;
   }
@@ -340,5 +346,11 @@
   }
   .section2 .right .text-container p {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 628.18px) and (max-width: 714.55px) {
+  .main .text {
+    text-align: center;
   }
 }
